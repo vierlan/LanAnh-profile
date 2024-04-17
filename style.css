@@ -1,0 +1,110 @@
+body {
+  font-size: 20px;
+  font-family: Space-mono;
+  font-weight: 400px;
+  background-color:  EEEDEB;
+  color: 747264;
+  text-align: center;
+  background-size: cover;
+}
+#background-pic{
+  background-image: url("images/kyoto pink.png");
+  background-image: cover;
+  background-position: 20% 30%;
+}
+
+h1, h2, h3 {
+  font-family: Whisper;
+  color: 3C3633;
+  font-size: 50px;
+  font-weight: 1000px;
+  margin: 5px;
+  }
+h4 {
+  font-size: 25px;
+  margin: 5px;
+}
+
+li {
+  display: inline;
+}
+
+ul {
+  padding: 10;
+}
+.image-circle{
+  width: 200;
+  height: 200;
+  border-radius: 50%;
+  padding: 3px;
+  border: 3px rgb(3, 26, 26);
+  }
+.light-boxy {
+  background-color: rgba(200,210,220,0.8);
+  padding: 10px;
+  margin-top:30px;
+  margin: 10px auto;
+  border-radius: 10px;
+  width: 60%;
+  border: 1px black;
+}
+a {
+  text-decoration: none;
+  background-color: DBE7C9;
+  padding: 18px;
+  border-radius: 8px;
+  box-shadow: 10 10 50 rgba(200,200,200,0.8);
+  font-size: 25px;
+  color: rgba(200,200,200,1);
+  transition: 0.3s ease;
+}
+a:hover {
+  background-color: 294B29;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+
+}
+i {
+  font-size: 50px;
+  color: rgba(100,100,100,1);
+  transition: color 0.3s ease;
+}
+button {
+  text-align: center;
+  color: white;
+  background-color: #192169;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+i:hover {
+  color: white;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.long-container {
+  width: 100%;
+  height: 20px;
+  background-color: rgba(0,0,0,0);
+}
